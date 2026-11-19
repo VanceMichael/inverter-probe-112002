@@ -1,0 +1,44 @@
+[
+  {
+    "record": "live-1",
+    "availableFrom": 2,
+    "kind": "point",
+    "payload": {
+      "cabinet": "New",
+      "seq": 92,
+      "channel": "04",
+      "sample": "N1",
+      "measured": "09:06",
+      "cumulative": 14,
+      "quality": "good"
+    }
+  },
+  {
+    "record": "live-2",
+    "availableFrom": 3,
+    "kind": "point",
+    "payload": {
+      "cabinet": "New",
+      "seq": 94,
+      "channel": "04",
+      "sample": "N2",
+      "measured": "09:12",
+      "cumulative": 22,
+      "quality": "good"
+    }
+  },
+  {
+    "record": "live-3",
+    "availableFrom": 4,
+    "kind": "point",
+    "payload": {
+      "cabinet": "New",
+      "seq": 93,
+      "channel": "08",
+      "sample": "N3",
+      "measured": "09:07",
+      "cumulative": 202,
+      "quality": "good"
+    }
+  }
+]

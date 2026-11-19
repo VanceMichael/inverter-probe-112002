@@ -1,0 +1,68 @@
+[
+  {
+    "record": "wiring-1",
+    "availableFrom": 1,
+    "kind": "wire",
+    "payload": {
+      "cabinet": "Old",
+      "channel": "04",
+      "point": "逆变出口",
+      "range": [
+        "00:00",
+        "09:00"
+      ],
+      "scale": 2,
+      "direction": 1,
+      "revision": 1
+    }
+  },
+  {
+    "record": "wiring-2",
+    "availableFrom": 2,
+    "kind": "wire",
+    "payload": {
+      "cabinet": "New",
+      "channel": "04",
+      "point": "逆变出口",
+      "range": [
+        "09:00",
+        "24:00"
+      ],
+      "scale": 3,
+      "direction": 1,
+      "revision": 1
+    }
+  },
+  {
+    "record": "wiring-4",
+    "availableFrom": 2,
+    "kind": "cutover",
+    "payload": {
+      "id": "CO4",
+      "point": "逆变出口",
+      "time": "09:00",
+      "continuous": false,
+      "base": [
+        1002,
+        null
+      ]
+    }
+  },
+  {
+    "record": "wiring-3",
+    "availableFrom": 4,
+    "kind": "wire",
+    "payload": {
+      "cabinet": "New",
+      "channel": "04",
+      "point": "并网侧",
+      "range": [
+        "09:00",
+        "24:00"
+      ],
+      "scale": 4,
+      "direction": -1,
+      "revision": 2
+    }
+  }
+]

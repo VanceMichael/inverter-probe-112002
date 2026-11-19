@@ -1,0 +1,47 @@
+[
+  {
+    "record": "archive-1",
+    "availableFrom": 1,
+    "kind": "sample",
+    "payload": {
+      "cabinet": "Old",
+      "channel": "04",
+      "sample": "DA1",
+      "measured": "08:52",
+      "exported": "09:20",
+      "unit": "pulse",
+      "cumulative": 980,
+      "quality": "good"
+    }
+  },
+  {
+    "record": "archive-2",
+    "availableFrom": 2,
+    "kind": "sample",
+    "payload": {
+      "cabinet": "New",
+      "channel": "04",
+      "sample": "DA1",
+      "origin": [
+        "Old",
+        "04",
+        "DA1"
+      ],
+      "measured": "08:52",
+      "exported": "09:25",
+      "unit": "pulse",
+      "cumulative": 980,
+      "quality": "good"
+    }
+  },
+  {
+    "record": "archive-3",
+    "availableFrom": 3,
+    "kind": "floor",
+    "payload": {
+      "cabinet": "Old",
+      "channel": "04",
+      "oldest": "08:45"
+    }
+  }
+]

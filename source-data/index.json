@@ -1,0 +1,11 @@
+{
+  "sources": [
+    "archive",
+    "live",
+    "wiring"
+  ],
+  "stages": 4,
+  "originals": [],
+  "originalStages": {},
+  "digests": {}
+}
